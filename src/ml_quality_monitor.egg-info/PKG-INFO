@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: ml-quality-monitor
+Version: 1.0.0
+Summary: Rolling ML quality monitoring service with reliable alert delivery
+Requires-Python: >=3.11
+Requires-Dist: fastapi>=0.115.6
+Requires-Dist: uvicorn[standard]>=0.32.1
+Requires-Dist: pydantic>=2.11.0
+Requires-Dist: httpx>=0.28.1
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3.4; extra == "dev"
